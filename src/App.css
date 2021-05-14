@@ -1,38 +1,55 @@
-.App {
+html {
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  margin: 0;
+}
+
+#content {
+  padding: 2rem 2rem 2rem 2rem;
+  min-height: 950px;
+  height: 100%;
   text-align: center;
+  background-image: linear-gradient(to bottom right, #fff9c4, #fbc02d);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#inp {
+  height: 2rem;
+  width: 14rem;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.616);
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: none;
+  transition: transform 0.2s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#inp:focus {
+  transform: scale(1.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn {
+  height: 2rem;
+  width: 4rem;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+  transition: transform 0.2s;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.616);
+  transform: scale(1.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  background-image: linear-gradient(to bottom, #ff5252, #388e3c);
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  margin-top: 0;
 }

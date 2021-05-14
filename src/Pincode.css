@@ -1,0 +1,44 @@
+p {
+  margin: 0;
+}
+
+#main {
+  width: 20rem;
+  display: inline-block;
+  margin: 1rem;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+#main:hover {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.success {
+  color: #388e3c;
+  border: 2px solid #388e3c;
+}
+
+.success:hover {
+  box-shadow: 0 5px 10px #388e3c;
+}
+
+.danger {
+  color: #d32f2f;
+  border: 2px solid #d32f2f;
+}
+
+.danger:hover {
+  box-shadow: 0 5px 10px #d32f2f;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
