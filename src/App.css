@@ -24,6 +24,7 @@ body {
   margin-bottom: 20px;
   border: none;
   transition: transform 0.2s;
+  font-weight: 600;
 }
 
 #inp:focus {
