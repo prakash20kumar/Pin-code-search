@@ -54,3 +54,31 @@ h1 {
   font-weight: 600;
   margin-top: 0;
 }
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* @media screen and (max-width: 1000px) {
+  
+} */
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 14px;
+  }
+  #content {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 80%;
+  }
+  #content {
+    padding: 1rem;
+  }
+}
